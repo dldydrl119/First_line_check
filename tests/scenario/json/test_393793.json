@@ -1,0 +1,23 @@
+[
+    {
+        "test_info": {
+            "tr_no": "393793"
+        },
+        "ss_1053": {
+            "description": "비로그인 홈 - 로딩",
+            "input": {},
+            "assert": {}
+        },
+        "ss_1054": {
+            "description": "각 회원별 로그인",
+            "input": {
+                "id_type": "간편회원",
+                "value1": "qe1100003",
+                "value2": "automation123$"
+            },
+            "assert": {
+                "user_name": "간편회원"
+            }
+        }
+    }
+]
