@@ -1,0 +1,30 @@
+[
+    {
+        "ss_1063": {
+            "description": "SRP 검색 결과 - 해당 영역 확인",
+            "test_info": {
+              "tr_no": "386348"
+            },
+            "input": {
+                "value1": "생수"
+            },
+            "assert": {
+                "value1": "생수"
+            }
+        }
+    },
+    {
+        "ss_1063": {
+            "description": "SRP 검색 결과 - 해당 영역 확인",
+            "test_info": {
+              "tr_no": "386348"
+            },
+            "input": {
+                "value1": "라면"
+            },
+            "assert": {
+                "value1": "라면"
+            }
+        }
+    }
+]

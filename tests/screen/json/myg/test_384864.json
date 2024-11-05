@@ -1,0 +1,32 @@
+[
+  {
+      "ss_1063": {
+        "test_info": {
+          "tr_no": "384864"
+        },
+        "input": {
+            "id_type": "일반회원",
+            "value1": "qe1100001",
+            "value2": "automation123$"
+        },
+        "assert": {
+          "user_name": "일반회원"
+        }
+      }
+    },
+    {
+      "ss_1063": {
+        "test_info": {
+          "tr_no": "384864"
+        },
+        "input": {
+            "id_type": "간편회원",
+            "value1": "qe1100003",
+            "value2": "automation123$"
+        },
+        "assert": {
+          "user_name": "간편회원"
+        }
+      }
+    }
+]

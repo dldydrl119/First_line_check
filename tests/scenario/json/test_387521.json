@@ -1,0 +1,44 @@
+[
+  {
+       "test_info": {
+            "tr_no": "363649"
+        },
+        "ss_login": {
+            "ss_1054": {
+                "input": {
+                    "id_type": "판매자회원01"
+                },
+                "assert": {
+                    "user_name": "판매자회원01"
+                }
+            }
+        },
+        "ss_home": {
+          "ss_1053": {
+              "description" : "로그인회원",
+              "aseert": {
+                "box__promotion" : "//*[contains(@class, \"box__promotion\")]",
+                "expected_url" : "https://www.gmarket.co.kr/",
+                "search_bar" : "//input[@id=\"form__search-keyword\"]"
+              }
+            }
+        },
+        "ss_myg": {
+          "ss_1061": {
+                "use_type": 2,
+                "tr_no":"387495"
+            },
+            "ss_1062": {
+                "use_type": 2,
+                "tr_no":"384864"
+            }
+        },
+        "ss_srp": {
+          "ss_1063": {
+                "use_type": 2,
+                "tr_no":"386348",
+                "value":"생수"
+            }
+        }
+    }
+]
